@@ -1,0 +1,2 @@
+- [Install Docker](https://docs.docker.com/install/)
+- `docker pull python:3.4-alpine`
