@@ -103,5 +103,6 @@ venv.bak/
 # mypy
 .mypy_cache/
 
-# Ignore local config file
-app/config.cfg
+# Ignore config files
+app/config.local.cfg
+app/config.staging.cfg
