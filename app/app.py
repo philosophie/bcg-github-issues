@@ -2,7 +2,7 @@ from flask import Flask, render_template
 from github import Github
 
 app = Flask(__name__)
-app.config.from_pyfile('config.cfg')
+app.config.from_envvar('FLASK_CONFIG_FILE')
 
 FAVORITE_REPO = 'facebook/react'
 
